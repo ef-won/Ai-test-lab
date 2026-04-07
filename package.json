@@ -1,0 +1,21 @@
+{
+  "name": "ai-test-lab-api",
+  "version": "1.0.0",
+  "description": "Structured Node.js API with JWT authentication",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/server.js",
+    "start": "node src/server.js",
+    "lint": "node --check src/**/*.js"
+  },
+  "keywords": ["node", "express", "auth", "jwt"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "jsonwebtoken": "^9.0.2"
+  }
+}
